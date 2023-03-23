@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#encabezado {
+    
+    background-color: black;
+}
+
+.centrar{
+    text-align: center;
+}
+
+#menu {
+    background-color: aqua;
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+
+#contenido {
+    display: inline-block;
+    width: 79%;
+    border: 1px solid black;
+}
+
+.mitad {
+    width: 49%;
+    display: inline-block;
+}
+
+.derecha{
+    text-align: right;
+}
+
+#botonera {
+    text-align: center;
+}

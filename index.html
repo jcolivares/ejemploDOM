@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/dom.js"></script>
+</head>
+<body>
+    <header id="encabezado">
+        <h1 class="centrar">Formulario RFC</h1>
+    </header>
+    <nav id="menu">
+        <!--ul>(li>a)*4-->
+        <ul>
+            <li><a href="">X</a></li>
+            <li><a href="">Y</a></li>
+            <li><a href="">Z</a></li>
+            <li><a href="">Inicio</a></li>
+        </ul>
+    </nav>
+    <section id="contenido">
+        <article id="entrada">
+            <h2>Entrada:</h2>
+            <form action="" method="get">
+                <div id="c_nombre">
+                    <label for="nombre" class="mitad derecha">Nombre:</label>
+                    <input class="mitad" type="text" name="nombre" id="nombre"> 
+                </div>
+                <div id="c_ap_paterno">
+                    <label class="mitad derecha" for="ap_paterno">Apellido Paterno:</label>
+                    <input type="text" id="ap_paterno" name="ap_paterno">
+                </div>
+                <div id="c_ap_materno">
+                    <label class="mitad derecha" for="ap_materno">Apellido Materno</label>
+                    <input type="text" id="ap_materno" name="ap_materno">
+                </div>
+                <div id="c_fecha">
+                    <label class="mitad derecha" for="fecha">Fecha Nacimiento:</label>
+                    <input type="date">
+                </div>
+                <div id="botonera">
+                    <button type="button" id="btn_calcular">Calcular RFC</button>
+                <button type="button" id="btn_limpiar">Limpiar</button>
+                </div>
+                
+            </form>
+        </article>
+        <article id="salida">
+            <h2>Salida:</h2>
+            <div id="resultado"></div>
+        </article>
+    </section>
+</body>
+</html>
